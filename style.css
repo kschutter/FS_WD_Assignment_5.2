@@ -1,0 +1,18 @@
+/* Default CSS settings */
+header {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+/* Removes extra default padding */
+body {
+    margin: 0;
+}
+
+/* If screen is mobile sized, set background to blue */
+@media screen and (max-width: 450px) {
+    header {
+        background-color: blue;
+    }
+}
